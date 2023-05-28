@@ -1,2 +1,4 @@
-a = int(input('Введите сторону квадрата '))
-print('Периметр равен', 4 * a)
+h = int(input())
+r = 6350
+from math import sqrt
+print('Расстояние до линии горизонта равно', sqrt((r + h)**2 - r ** 2))
