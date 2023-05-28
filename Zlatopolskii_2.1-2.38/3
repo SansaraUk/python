@@ -1,0 +1,3 @@
+a = float(input())
+import math
+print((a ** 2 + 10) / math.sqrt(a ** 2 + 1))
