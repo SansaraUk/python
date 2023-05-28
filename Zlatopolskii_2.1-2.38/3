@@ -1,3 +1,16 @@
+a)
 a = float(input())
-import math
-print((a ** 2 + 10) / math.sqrt(a ** 2 + 1))
+from math import sqrt, sin
+print(sqrt((2 * a + sin(abs(3 * a))) / 3.56))
+
+б)
+x = float(input())
+
+if x != 0:
+    from math import sqrt, sin
+    a = 3.2 + sqrt(x + 1)
+    b = abs(5 * x)
+    c = sin(a / b)
+    print(c)
+else:
+    print('На ноль делить нельзя')
