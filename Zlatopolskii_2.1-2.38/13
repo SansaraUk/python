@@ -1,0 +1,3 @@
+a = int(input('Введите a, не равное 0 '))
+b = int(input('Введите b '))
+print('x =', -b / a)
