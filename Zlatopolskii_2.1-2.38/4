@@ -1,3 +1,2 @@
-a = float(input())
-from math import sqrt, sin
-print(sqrt((2 * a + sin(abs(3 * a))) / 3.56))
+a = int(input('Введите сторону квадрата '))
+print('Периметр равен', 4 * a)
